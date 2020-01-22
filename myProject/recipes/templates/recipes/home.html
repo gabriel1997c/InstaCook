@@ -1,0 +1,24 @@
+{% extends "recipes/base.html" %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+    {% for post in posts %}
+        <div class="col-md-4 pb-4" id="recipe-card">
+
+                <div class="card-body">
+                    <h5 class="card-title"><a href="{% url 'post-detail' post.id %}"> {{ post.title }} </a></h5>
+                    <a href="{% url 'post-detail' post.id %}">
+                        <img alt="{{ post.title }}" class="fixed-recipe-card_img" id = "recipe-image" src="{{ post.image.url }}">
+                    </a>
+                    <p id ="recipe-time">Total time: {{ post.time }} minutes</p>
+                    <small class="text-muted" id ="post-date">{{ post.date_posted|date:"jS M Y," }} {{ post.date_posted|time:"H:i:s" }}</small>
+                        <a class="mr-2" href="{% url 'user-posts' post.author.username %}" id="post-author">{{ post.author }}</a>
+                        <img class ="rounded-circle article-img" src ="{{ post.author.profile.image.url}}" id="post-small-image">
+                </div>
+
+        </div>
+    {% endfor %}
+    </div>
+</div>
+
+{% endblock content %}

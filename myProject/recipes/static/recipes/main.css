@@ -1,0 +1,151 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-col {
+  background-color: #0D0221;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+#brand-title {
+    color: #ffffff;
+
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.fixed-recipe-card_img {
+  padding-top: 10px;
+  max-width: 310px;
+  max-height: 250px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.card-body {
+  padding-bottom: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  height: 440px;
+  width: 350px;
+}
+
+#recipe-image {
+  height: 300px;
+  width: 390px;
+  position: absolute;
+  top: 95px;
+}
+
+#post-author{
+  position: absolute;
+  bottom: 25px;
+  left: 280px;
+}
+
+#post-small-image{
+  position: absolute;
+  bottom: 50px;
+  left: 280px;
+}
+
+#post-date{
+  position: absolute;
+  left: 38px;
+  bottom: 35px;
+}
+
+#recipe-time {
+  position: absolute;
+  bottom: 60px;
+}
+
+#profile-post-date{
+  position:absolute;
+  top: 10px;
+  right: 30px;
+}
+
+#profile-post-user-image{
+  width: 100px;
+  height: 100px;
+}
+
+#post-profile-name{
+  font-style: bold;
+  font-size: 40px;
+}
