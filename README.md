@@ -1,4 +1,4 @@
-<h3 align="center"><strong>InstaCook - a recipe sharing website</strong></h3>
+<h2 align="center"><strong>InstaCook - a recipe sharing website</strong></h2>
 
 > This web app built with Django on the backend allows visitors to see other users' recipes and, if they
 log in, they are able to submit their own recipe's details along with an image, or update/delete their
